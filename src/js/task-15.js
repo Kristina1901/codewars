@@ -71,8 +71,10 @@ function compressed(str) {
 
        
     }
+    let FIRSTARR = [duplicates[0], ...duplicates]
+    let THIRDARR =[thirdarr[0], ...thirdarr]
 
-    console.log(thirdarr, duplicates, monoNew)
+    console.log([THIRDARR.length, THIRDARR[0]], [FIRSTARR.length, FIRSTARR[0]], [monoNew.length, monoNew[0]])
 }
 console.log(compressed("aaaaaaaaaaaaaaaaaaaaaaaaaabaaaaaaaaaaaaaaaaaa"))
 console.log(compressed("aaaaaaaabaaaa"))
