@@ -5,3 +5,9 @@
 // Примеры:
 // wordCount("hello there") => 2
 // wordCount("I'd like to say goodbye") => 6
+function wordCount(str) {
+    let word = str.match(/(\w+)/g).length;
+    return word
+}
+console.log(wordCount("hello there"))
+console.log(wordCount("I'd like to say goodbye"))
