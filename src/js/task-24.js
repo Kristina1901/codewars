@@ -1,9 +1,12 @@
 // Функция подсчета факториала до заданного элемента
 
 function getF(num) {
-  if (num == 1) return 1;
-  return num * getF(num - 1);
+  let multy = 1;
+  for (let i = 1; i < num; i++) {
+    multy *= i
+  }
+  return multy
+  
+
 }
-console.log(getF(10))
-
-
+console.log(getF(4))
