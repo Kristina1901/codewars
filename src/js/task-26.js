@@ -50,6 +50,6 @@ console.log(printTask(2, { done: true, title: 'Done task' }))
 console.log(printTask(3, { done: false, title: 'Objects', desc: 'Learn more about this' }))
 console.log(printTask(4, {done: false, title: 'Complete first course task', dueDate: new Date('2022-01-17')}))
 
-// 1.[] Undone task
+
 
 
