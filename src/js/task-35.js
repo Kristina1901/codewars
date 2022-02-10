@@ -1,6 +1,6 @@
 const buttonSelectedAll = document.querySelector(".button");
-const checkboxNode = document.querySelectorAll(".chek")
-const checkbox = [...checkboxNode]
+const checkboxNode = document.querySelector(".list-cheakbox")
+const checkbox =  checkboxNode.children;
 buttonSelectedAll.addEventListener("click", handleSubmit);
 function handleSubmit() {
    for (let i =0; i < checkbox.length; i++){
@@ -12,7 +12,7 @@ function handleSubmit() {
            checkbox[i].removeAttribute('checked');
        }
     }
-       
+      
       
 }
-
+console.log(checkbox)
