@@ -15,4 +15,3 @@ function handleSubmit() {
       
       
 }
-console.log(checkbox)
