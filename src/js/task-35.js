@@ -12,6 +12,6 @@ function handleSubmit() {
            checkbox[i].removeAttribute('checked');
        }
     }
-      
-      
+        
 }
+   
