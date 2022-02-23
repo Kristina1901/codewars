@@ -3,7 +3,7 @@ function calculate() {
     return {
         add(value) {
             result += value
-            return this
+          return this
         },
         result() {
             return result
